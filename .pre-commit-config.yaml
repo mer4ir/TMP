@@ -17,10 +17,12 @@ repos:
         entry: pyright
         language: system
         pass_filenames: false
+        always_run: true
         stages: [pre-push]
       - id: pytest
         name: pytest
         entry: pytest
         language: system
         pass_filenames: false
+        always_run: true
         stages: [pre-push]
