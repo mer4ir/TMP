@@ -26,3 +26,8 @@ exclude = ["**/.venv", "**/__pycache__"]
 pythonVersion = "3.12.3"
 typeCheckingMode = "strict"
 reportUnknownMemberType = "none" 
+executionEnvironments = [{ root = "lab1" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["lab1"]
+testpaths = ["lab1"]
